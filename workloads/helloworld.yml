@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: docker-nodejs-demo
-  namespace: demo
+  namespace: test
   labels:
     app: docker-nodejs-demo
   annotations:
